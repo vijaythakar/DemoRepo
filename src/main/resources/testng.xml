@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+	<listeners> <!-- this listener class will give extent report after listening all the pass fail skip tests -->
+		<listener
+			class-name="com.qa.ExtentReportListener.ExtentReportListener" /> <!-- the path whichw we have -->
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.crm.qa.testcases.NewLoginPageTest"></class>
+			<class name="com.crm.qa.testcases.HomePageTest"></class>
+			<class name="com.crm.qa.testcases.ContactsPageTest"></class>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
